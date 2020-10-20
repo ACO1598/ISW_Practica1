@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include "funciones.h"
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
