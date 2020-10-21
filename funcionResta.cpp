@@ -15,6 +15,6 @@ vector<int> restaVectores(vector<int> v1, vector<int> v2)
 	}
 	else {
 		cout << "vectores de diferente tamaño"
-	}
+	} 
 	return resta
 }
