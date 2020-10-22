@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "funciones.h"
 using namespace std;
 
 vector<int> introVectores(){
@@ -47,16 +48,15 @@ int main() {
 
 		if (temp==1) {
 			//ejecutar la introduccion de vectores
-			std::cout << "opcion 1" << '\n';
+			std::cout << "Introduzca el primer vector" << '\n';
 			v1= introVectores();
 			printf("Introduzca el segundo vector \n");
 			v2= introVectores();
 		} else if (temp==2) {
-			std::cout << "opcion 2" << '\n';
-			//vector<int> v3= sumaVectores(v1, v2);
+			vector<int> v3= sumaVectores(v1, v2);
 		} else if(temp==3){
-			std::cout << "opcion 3" << '\n';
 			//ejecutar resta de vectores
+			vector<int> v3= restaVectores(v1, v2);
 		} else if(temp==4){
 			std::cout << "Hasta luego" << '\n';
 		}
