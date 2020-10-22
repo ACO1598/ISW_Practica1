@@ -34,10 +34,10 @@ vector<int> restaVectores(vector<int> v1, vector<int> v2)
 		{
 			resta[i] = v1[i] - v2[i];
 		}
-		return resta
+		return resta;
 	}
 	else {
-		cout << "vectores de diferente tamaño"
+		cout << "vectores de diferente tamaño";
 	}
 	
 }
@@ -59,4 +59,11 @@ vector<int> introVectores()
 	}
 
 	return v;
+}
+void muestraVector(vector<int> v)
+{
+	for(int i : v)
+	{
+		cout << i << endl;
+	}
 }

@@ -28,9 +28,12 @@ int main() {
 			v2= introVectores();
 		} else if (temp==2) {
 			vector<int> v3= sumaVectores(v1, v2);
+			muestraVector(v3);
 		} else if(temp==3){
 			//ejecutar resta de vectores
 			vector<int> v3= restaVectores(v1, v2);
+			muestraVector(v3);
+
 		} else if(temp==4){
 			std::cout << "Hasta luego" << '\n';
 		}
