@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //============================================================================
 // Name        : Practica1.cpp
 // Author      :
@@ -6,12 +7,15 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
+=======
+>>>>>>> developer
 #include <iostream>
 #include <vector>
 #include <string>
 #include "funciones.h"
 using namespace std;
 
+<<<<<<< HEAD
 vector<int> introVectores(){
 
 	printf("Introduzca el numero de elementos de su vector\n");
@@ -30,6 +34,8 @@ vector<int> introVectores(){
 
 	return v;
 }
+=======
+>>>>>>> developer
 
 int main() {
 	//este va a ser el menu para nuestro programa
@@ -54,13 +60,26 @@ int main() {
 			v2= introVectores();
 		} else if (temp==2) {
 			vector<int> v3= sumaVectores(v1, v2);
+<<<<<<< HEAD
 		} else if(temp==3){
 			//ejecutar resta de vectores
 			vector<int> v3= restaVectores(v1, v2);
+=======
+			muestraVector(v3);
+		} else if(temp==3){
+			//ejecutar resta de vectores
+			vector<int> v3= restaVectores(v1, v2);
+			muestraVector(v3);
+
+>>>>>>> developer
 		} else if(temp==4){
 			std::cout << "Hasta luego" << '\n';
 		}
 	}
 
 	return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> developer
