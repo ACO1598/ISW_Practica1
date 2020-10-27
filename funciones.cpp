@@ -70,3 +70,16 @@ void muestraVector(vector<int> v)
 	}
 >>>>>>> developer
 }
+vector<int> impar(vector<int> v1)
+{
+	
+	vector<int> impar;
+	for(int i : v1)
+	{
+		if(i%2 != 0)
+		{
+			impar.push_back(i);
+		}
+	}
+	return impar;
+}
